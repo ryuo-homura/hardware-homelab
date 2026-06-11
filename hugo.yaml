@@ -1,0 +1,15 @@
+baseURL: "https://yourdomain.com/"
+title: "Hardware Homelab & Hacking Log"
+theme: "blowfish"
+languageCode: "en-us"
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+
+params:
+  colorScheme: "dark"
+  header:
+    showLogo: false
+    showTitle: true
