@@ -1,0 +1,42 @@
+/* --- Import True 8-Bit Pixel Font from Google --- */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* --- 8-Bit CRT Terminal Styles --- */
+:root .dark {
+    --color-neutral-900: #0a0f0d; /* Pure Old-School Monitor Glass Black */
+    --color-neutral-800: #141f1b; /* Dark Terminal Card Backgrounds */
+    --color-neutral-200: #33ff33; /* Classic Phosphor Laser Green Text */
+    --color-neutral-400: #22aa22; /* Muted Green for secondary labels */
+    
+    --color-primary-600: #33ff33; /* Links glow bright green */
+    --color-primary-400: #00ff88; /* Matrix Mint Accent */
+}
+
+/* Global Pixel Font and Phosphor Glow Override */
+body, code, pre, kbd, samp, h1, h2, h3, h4, h5, h6, a, span {
+    font-family: 'Press Start 2P', monospace !important;
+    text-shadow: 0 0 6px rgba(51, 255, 51, 0.65);
+}
+
+/* Shrink the pixel text sizes down slightly so it remains readable */
+body {
+    font-size: 11px !important;
+    line-height: 2 !important;
+    letter-spacing: -0.5px;
+}
+
+h1, h2, h3 {
+    line-height: 1.6 !important;
+}
+
+/* 8-Bit CRT Monitor Scanline Overlay Effect */
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.04));
+    z-index: 99999;
+    background-size: 100% 4px, 6px 100%;
+    pointer-events: none;
+}

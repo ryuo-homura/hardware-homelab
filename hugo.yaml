@@ -1,15 +1,23 @@
-baseURL: "https://yourdomain.com/"
-title: "Hardware Homelab & Hacking Log"
+baseURL: "https://homelab.mikazukilabs.com/"
+title: "Mikazuki Labs"
 theme: "blowfish"
-languageCode: "en-us"
+defaultContentLanguage: "en"
 
 module:
   hugoVersion:
     extended: true
     min: "0.112.0"
 
+# Theme Visual Settings
 params:
-  colorScheme: "dark"
+  colorScheme: "neon"  # 🌟 THIS IS THE RETRO-SYNTHWAVE PALETTE!
+  defaultAppearance: "dark"
   header:
     showLogo: false
     showTitle: true
+
+# Author Bio Settings
+  author:
+    name: "Ryuo Homura"
+    headline: "Homelab Engineer & System Architect"
+    bio: "Documenting the deployment, automation, and continuous uptime of my bare-metal home network infrastructure."

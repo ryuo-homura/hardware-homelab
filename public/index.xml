@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hardware Homelab &amp; Hacking Log</title>
+    <title>Mikazuki Labs</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Hardware Homelab &amp; Hacking Log</description>
+    <description>Recent content on Mikazuki Labs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2026 </copyright>
+    <language>en</language>
+    <copyright>© 2026 Ryuo Homura</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>

@@ -1,0 +1,18 @@
+disabled: false
+locale: "en"
+label: "English"
+weight: 1
+title: "Mikazuki Labs"
+
+params:
+  displayName: "EN"
+  isoCode: "en"
+  rtl: false
+  dateFormat: "2 January 2006"
+  description: "Homelab Documentation & Engineering Log"
+  copyright: "Mikazuki Labs"
+
+  author:
+    name: "Ryuo Homura"
+    headline: "Homelab Engineer & System Architect"
+    bio: "Documenting the deployment, automation, and continuous uptime of my bare-metal home network infrastructure."
